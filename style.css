@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+
+{
+    outline: #EEE solid 1px;
+}
+/* Small devices (landscape phones, 576px and up) */
+        @media (max-width: 576px) {
+               .loader{ 
+                display: none;
+            }
+              .logo{
+                height: 105px;
+                width: 256px;    
+            }
+            .header {
+                height: 105px;
+                background: linear-gradient(white, #FFCF05);
+                width: auto;
+                text-align-last: center;
+            }
+            .redband{
+                font-size: 0.7rem;
+                padding-top: 8px;
+            }}
+
+
+        /* Medium devices (tablets, 768px and up) */
+        @media (min-width: 576px) {
+               .loader{ 
+                height: 80px;
+                width: 146px;
+                margin-top: 50px;
+            }
+              .logo{
+                  height: 90px;
+                  width: 220px;
+            }
+            .header {
+                height: 130px;
+                background: linear-gradient(white, #FFCF05);
+                width: auto;
+                text-align-last: center;
+            }
+            .redband{
+                font-size: 0.8rem;
+                padding-top: 6px;
+            }}
+
+
+        /* Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+            .loader{ 
+                height: 115px;
+                width: 208px;
+                margin-top: 15px;
+            }
+            .logo{
+                height: 120px;
+                width: 293px;
+                margin-left: 80px;
+                margin-right: 80px;
+            }
+            .header {
+                height: 130px;
+                background: linear-gradient(white, #FFCF05);
+                width: auto;
+                text-align-last: center;
+            }
+            .redband{
+                font-size: 0.9rem;
+                padding-top: 6px;
+            }}
+
+
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {  
+            .loader{ 
+                height: 115px;
+                width: 208px;
+                margin-top: 15px;
+            }
+            .logo{
+                height: 120px;
+                width: 293px;
+                margin-left: 80px;
+                margin-right: 80px;
+            }
+            .header {
+                height: 130px;
+                background: linear-gradient(white, #FFCF05);
+                width: auto;
+                text-align-last: center;
+            }
+            .redband{
+                font-size: 0.9rem;
+                padding-top: 6px;
+            }}
+
+
+
+body {
+    background-image: url(images/backg.png);
+}
+
+
+.nav{
+}
+
+.redband{
+    background-image: url(images/redband.png);
+    height: 30px;
+    color: black;
+    font-family: 'Exo', sans-serif;
+    text-align-last: center;
+}
+
+.home {
+    color: #FFCF05;
+}
+
+.home_h1{
+    color: #FFCF05;
+    font-family: 'Exo', sans-serif;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.home_content{
+    margin-top: 10px;
+    
+    font-family: 'Sunflower', sans-serif;
+}
