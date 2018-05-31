@@ -29,6 +29,7 @@
             .poster1{
                 width: 380px;
                 height: 200px;
+                box-shadow: 10px 10px 50px black;
             } 
             .invader{
                 width: 385px;
@@ -60,6 +61,22 @@
                 width: 330px;
                 height: 400px;
                 margin-left: -50px;
+            }
+            .new-u{
+                width: 200px;
+                height: 304px;
+            }
+            .thebee{
+                width: 300px;
+            }
+            .helios1{
+                width: 300px;
+            }
+            .welcomepic{
+                box-shadow: 10px 10px 50px black;
+                border-radius: 20px;
+                width: 350px;
+                height: 159px;
             }}
 
 
@@ -94,6 +111,7 @@
             .poster1{
                 width: 670px;
                 height: 338px;
+                box-shadow: 10px 10px 50px black;
             }
             .invader{
                 width: 600px;
@@ -127,6 +145,23 @@
                 width: 380px;
                 height: 400px;
                 margin-left: -90px;
+            }
+            .new-u{
+                width: 200px;
+                height: 304px;
+    
+            }
+            .thebee{
+                width: 300px;
+            }
+            .helios1{
+                width: 300px;
+            }
+            .welcomepic{
+                box-shadow: 10px 10px 50px black;
+                border-radius: 20px;
+                width: 350px;
+                height: 159px;
             }}
           
 
@@ -174,8 +209,9 @@
                 height: 602px;
             }
             .poster1{
-                width: 450px;
+                width: 400px;
                 height: 234px;
+                box-shadow: 10px 10px 50px black;
             } 
             .invader{
                 width: 600px;
@@ -213,6 +249,23 @@
                 width: 380px;
                 height: 400px;
                 margin-left: -90px;
+            }
+            .new-u{
+                width: 200px;
+                height: 304px;
+            }
+            .thebee{
+                width: 300px;
+            }
+            .helios1{
+                width: 350px;
+                margin-top: 30px;
+            }
+            .welcomepic{
+                box-shadow: 10px 10px 50px black;
+                border-radius: 20px;
+                width: 729px;
+                height: 332px;
             }}
 
 
@@ -249,6 +302,7 @@
             .poster1{
                 width: 530px;
                 height: 274px;
+                box-shadow: 10px 10px 50px black;
             }
             .invader{
                 width: 600px;
@@ -286,6 +340,23 @@
                 width: 380px;
                 height: 400px;
                 margin-left: -90px;
+            }
+            .new-u{
+                width: 200px;
+                height: 304px;
+            }
+            .thebee{
+                width: 300px;
+            }
+            .helios1{
+                width: 350px;
+                margin-top: 30px;
+            }
+            .welcomepic{
+                box-shadow: 10px 10px 50px black;
+                border-radius: 20px;
+                width: 729px;
+                height: 332px;
             }}
 
 
@@ -357,8 +428,18 @@ body {
 .disclaimer{
     color: red;
     text-align-last: center;
+    font-size: 1.5rem;
+}
+.welcome{
+    text-align-last: center;
+    margin-bottom: 30px;
 }
 
- {
+
+
+
+
+
+    {
     outline: #EEE solid 1px;
 }
