@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Exo');
 @import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+@import url('https://fonts.googleapis.com/css?family=Teko');
 
-{
-    outline: #EEE solid 1px;
-}
+
+
 /* Small devices (landscape phones, 576px and up) */
         @media (max-width: 576px) {
                .loader{ 
@@ -22,7 +22,50 @@
             .redband{
                 font-size: 0.7rem;
                 padding-top: 8px;
+            }
+            .helios{
+                display: none;
+            }
+            .poster1{
+                width: 380px;
+                height: 200px;
+            } 
+            
+            .weapon2{
+                display: none;
+            }
+            .weapon3{
+                display: none;
+            }
+            .invader{
+                width: 385px;
+                height: 87px;
+                margin-top: 20px;
+            }
+            .logan{
+                width: 200px;
+                height: 140px;
+                margin-top: 20px;
+            }
+            .bitch{
+                width: 385px;
+                height: 172px;
+                margin-top: 20px;
+            }
+            .CC{
+                width: 385px;
+                height: 97px;
+                margin-top: 20px;
+            }
+            .quasar{
+                width: 286px;
+                height: 200px;
+                margin-top: 20px;
+                margin-bottom: 50px;
             }}
+
+
+
 
 
         /* Medium devices (tablets, 768px and up) */
@@ -45,7 +88,67 @@
             .redband{
                 font-size: 0.8rem;
                 padding-top: 6px;
+            }
+            .helios{
+                height: 452px;
+                width: 350px;
+            }
+            .poster1{
+                width: 670px;
+                height: 338px;
+            }
+            .weapon2{
+                width: 360px;
+                height: 279px;
+                border-radius: 1px;
+                box-shadow: -10px 10px 30px black;
+                margin-left: 70px;
+                display: none;
+            }
+            .weapon3{
+                width: 360px;
+                height: 279px;
+                border-radius: 1px;
+                box-shadow: 10px 10px 30px black;
+                margin-left: 70px;
+                margin-left: -15px;
+            } 
+            .invader{
+                width: 600px;
+                margin-top: 20px;
+            }
+            .logan{
+                width: 286px;
+                height: 200px;
+            }
+            .bitch{
+                width: 449px;
+                height: 200px;
+                margin-top: 20px;
+            }
+            .CC{
+                width: 600px;
+                height: 152px;
+                margin-top: 20px;
+            }
+            .quasar{
+                width: 286px;
+                height: 200px;
+                margin-top: 20px;
+                margin-bottom: 50px;
             }}
+
+
+
+
+        @media (max-width: 767px) {
+            .weapon3{
+                 display: none;
+                }
+            }
+
+
+
 
 
         /* Large devices (desktops, 992px and up) */
@@ -70,7 +173,63 @@
             .redband{
                 font-size: 0.9rem;
                 padding-top: 6px;
+            }
+            .helios{
+                width: 500px;
+                height: 602px;
+            }
+            .poster1{
+                width: 450px;
+                height: 234px;
+            } 
+            .weapon2{
+                width: 305px;
+                height: 209px;
+                border-radius: 1px;
+                box-shadow: -10px 10px 30px black;
+                margin-top: 70px;
+                 margin-left: auto;
+                display: inherit;
+            }
+            .weapon3{
+                width: 305px;
+                height: 209px;
+                border-radius: 1px;
+                box-shadow: 10px 10px 30px black;
+                margin-top: 70px;
+                 margin-left: auto;
+                display: inherit;
+            }
+            .invader{
+                width: 600px;
+                margin-left: -80px;
+                margin-top: 20px;
+            }
+            .logan{
+                width: 286px;
+                height: 200px;
+                margin-top: 30px;
+            }
+            .bitch{
+                width: 449px;
+                height: 200px;
+                margin-top: 20px;
+            }
+            .CC{
+                width: 600px;
+                height: 152px;
+                margin-left: -50px;
+                margin-top: 20px;
+            }
+            .quasar{
+                width: 286px;
+                height: 200px;
+                margin-top: 20px;
+                margin-bottom: 50px;
             }}
+
+
+
 
 
         /* Extra large devices (large desktops, 1200px and up) */
@@ -95,18 +254,69 @@
             .redband{
                 font-size: 0.9rem;
                 padding-top: 6px;
+            }
+            .helios{
+                width: 500px;
+                height: 602px;
+            }
+            .poster1{
+                width: 530px;
+                height: 274px;
+            }
+            .weapon2{
+                width: 360px;
+                height: 247px;
+                border-radius: 1px;
+                box-shadow: -10px 10px 30px black;
+                margin-top: 20px;
+                margin-left: auto;
+                display: inherit;
+            }
+            .weapon3{
+                width: 360px;
+                height: 247px;
+                border-radius: 1px;
+                box-shadow: 10px 10px 30px black;
+                margin-top: 20px;
+                margin-left: auto;
+                display: inherit;
+            }
+            .invader{
+                width: 600px;
+                margin-left: -40px;
+                margin-top: 20px;
+            }
+            .logan{
+                margin-top: 30px;
+                width: 286px;
+                height: 200px;
+            }
+            .bitch{
+                width: 449px;
+                height: 200px;
+                margin-top: 20px;
+            }
+            .CC{
+                width: 600px;
+                height: 152px;
+                margin-left: -50px;
+                margin-top: 20px;
+            }
+            .quasar{
+                width: 286px;
+                height: 200px;
+                margin-top: 20px;
+                margin-bottom: 50px;
             }}
 
 
 
+            
 body {
     background-image: url(images/backg.png);
 }
-
-
 .nav{
 }
-
 .redband{
     background-image: url(images/redband.png);
     height: 30px;
@@ -114,11 +324,19 @@ body {
     font-family: 'Exo', sans-serif;
     text-align-last: center;
 }
+.redband a{
+    color: black;
+    text-decoration: none;
+}
+.redband a:hover{
+    color: #2EFEFF;
+}
+
+/*  HOME PAGE  */
 
 .home {
     color: #FFCF05;
 }
-
 .home_h1{
     color: #FFCF05;
     font-family: 'Exo', sans-serif;
@@ -127,6 +345,39 @@ body {
 }
 .home_content{
     margin-top: 10px;
-    
     font-family: 'Sunflower', sans-serif;
+}
+
+
+
+.titles{
+    margin-top: 20px;
+    font-family: 'Exo', sans-serif;
+    color:  #FFCF05;
+    text-align-last: center;
+}
+.weaponpitch{
+    font-family: 'Sunflower', sans-serif;
+    color: #FFCF05
+}
+
+.OLG{
+    font-family: 'Exo', sans-serif;
+    color: #FFCF05;
+    margin-top: 40px;
+}
+.weapontitle{
+    margin-top: 20px;
+    font-family: 'Teko', sans-serif;
+    color: red;
+}
+.weapondscrp{
+    font-family: 'Sunflower', sans-serif;
+    color: white;
+}
+
+
+
+ {
+    outline: #EEE solid 1px;
 }
