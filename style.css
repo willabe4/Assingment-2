@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo');
 @import url('https://fonts.googleapis.com/css?family=Sunflower:300');
 @import url('https://fonts.googleapis.com/css?family=Teko');
-
-
-
+body {background-color: black}
 /* Small devices (landscape phones, 576px and up) */
         @media (max-width: 576px) {
                .loader{ 
@@ -79,10 +77,6 @@
                 height: 159px;
             }}
 
-
-
-
-
         /* Medium devices (tablets, 768px and up) */
         @media (min-width: 576px) {
                .loader{ 
@@ -149,7 +143,6 @@
             .new-u{
                 width: 200px;
                 height: 304px;
-    
             }
             .thebee{
                 width: 300px;
@@ -164,9 +157,6 @@
                 height: 159px;
             }}
           
-
-
-
         @media (max-width: 767px) {
             .loaderbot{
                 width: 330px;
@@ -176,11 +166,6 @@
                 display: none;
             }}
             
-            
-
-
-
-
         /* Large devices (desktops, 992px and up) */
         @media (min-width: 992px) {
             .loader{ 
@@ -268,10 +253,6 @@
                 height: 332px;
             }}
 
-
-
-
-
         /* Extra large devices (large desktops, 1200px and up) */
         @media (min-width: 1200px) {  
             .loader{ 
@@ -358,9 +339,6 @@
                 width: 729px;
                 height: 332px;
             }}
-
-
-
             
 body {
     background-image: url(images/backg.png);
@@ -381,9 +359,6 @@ body {
 .redband a:hover{
     color: #2EFEFF;
 }
-
-/*  HOME PAGE  */
-
 .home {
     color: #FFCF05;
 }
@@ -397,9 +372,6 @@ body {
     margin-top: 10px;
     font-family: 'Sunflower', sans-serif;
 }
-
-
-
 .titles{
     margin-top: 20px;
     font-family: 'Exo', sans-serif;
@@ -410,7 +382,6 @@ body {
     font-family: 'Sunflower', sans-serif;
     color: #FFCF05
 }
-
 .OLG{
     font-family: 'Exo', sans-serif;
     color: #FFCF05;
@@ -433,13 +404,4 @@ body {
 .welcome{
     text-align-last: center;
     margin-bottom: 30px;
-}
-
-
-
-
-
-
-    {
-    outline: #EEE solid 1px;
 }
