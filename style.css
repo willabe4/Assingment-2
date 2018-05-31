@@ -30,13 +30,6 @@
                 width: 380px;
                 height: 200px;
             } 
-            
-            .weapon2{
-                display: none;
-            }
-            .weapon3{
-                display: none;
-            }
             .invader{
                 width: 385px;
                 height: 87px;
@@ -62,6 +55,11 @@
                 height: 200px;
                 margin-top: 20px;
                 margin-bottom: 50px;
+            }
+            .loaderbot{
+                width: 330px;
+                height: 400px;
+                margin-left: -50px;
             }}
 
 
@@ -97,22 +95,6 @@
                 width: 670px;
                 height: 338px;
             }
-            .weapon2{
-                width: 360px;
-                height: 279px;
-                border-radius: 1px;
-                box-shadow: -10px 10px 30px black;
-                margin-left: 70px;
-                display: none;
-            }
-            .weapon3{
-                width: 360px;
-                height: 279px;
-                border-radius: 1px;
-                box-shadow: 10px 10px 30px black;
-                margin-left: 70px;
-                margin-left: -15px;
-            } 
             .invader{
                 width: 600px;
                 margin-top: 20px;
@@ -136,17 +118,30 @@
                 height: 200px;
                 margin-top: 20px;
                 margin-bottom: 50px;
+            }
+            .loaderbot{
+                width: 330px;
+                height: 400px;
+            }
+            .loaderbot2{
+                width: 380px;
+                height: 400px;
+                margin-left: -90px;
             }}
-
+          
 
 
 
         @media (max-width: 767px) {
-            .weapon3{
-                 display: none;
-                }
+            .loaderbot{
+                width: 330px;
+                height: 400px;
             }
-
+            .loaderbot2{
+                display: none;
+            }}
+            
+            
 
 
 
@@ -182,24 +177,6 @@
                 width: 450px;
                 height: 234px;
             } 
-            .weapon2{
-                width: 305px;
-                height: 209px;
-                border-radius: 1px;
-                box-shadow: -10px 10px 30px black;
-                margin-top: 70px;
-                 margin-left: auto;
-                display: inherit;
-            }
-            .weapon3{
-                width: 305px;
-                height: 209px;
-                border-radius: 1px;
-                box-shadow: 10px 10px 30px black;
-                margin-top: 70px;
-                 margin-left: auto;
-                display: inherit;
-            }
             .invader{
                 width: 600px;
                 margin-left: -80px;
@@ -226,6 +203,16 @@
                 height: 200px;
                 margin-top: 20px;
                 margin-bottom: 50px;
+            } 
+            .loaderbot{
+                width: 330px;
+                height: 400px;
+                margin-left: -80px;
+            }
+            .loaderbot2{
+                width: 380px;
+                height: 400px;
+                margin-left: -90px;
             }}
 
 
@@ -263,24 +250,6 @@
                 width: 530px;
                 height: 274px;
             }
-            .weapon2{
-                width: 360px;
-                height: 247px;
-                border-radius: 1px;
-                box-shadow: -10px 10px 30px black;
-                margin-top: 20px;
-                margin-left: auto;
-                display: inherit;
-            }
-            .weapon3{
-                width: 360px;
-                height: 247px;
-                border-radius: 1px;
-                box-shadow: 10px 10px 30px black;
-                margin-top: 20px;
-                margin-left: auto;
-                display: inherit;
-            }
             .invader{
                 width: 600px;
                 margin-left: -40px;
@@ -307,6 +276,16 @@
                 height: 200px;
                 margin-top: 20px;
                 margin-bottom: 50px;
+            }
+            .loaderbot{
+                width: 330px;
+                height: 400px;
+                margin-left: -50px;
+            }
+            .loaderbot2{
+                width: 380px;
+                height: 400px;
+                margin-left: -90px;
             }}
 
 
@@ -356,7 +335,7 @@ body {
     color:  #FFCF05;
     text-align-last: center;
 }
-.weaponpitch{
+.pitch{
     font-family: 'Sunflower', sans-serif;
     color: #FFCF05
 }
@@ -375,8 +354,10 @@ body {
     font-family: 'Sunflower', sans-serif;
     color: white;
 }
-
-
+.disclaimer{
+    color: red;
+    text-align-last: center;
+}
 
  {
     outline: #EEE solid 1px;
